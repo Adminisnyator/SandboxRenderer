@@ -1,0 +1,26 @@
+CompileFlags:
+  Add:
+    - -ggdb                   # GDB Output
+    - -Wall                   # All warnings
+    - -Wextra                 # Even more warnings
+    - -lraylib                # Link raylib, TODO: Figure out if we need this
+    - -I/usr/include          # Add include paths
+    - -std=gnu23              # Specify C11 standard
+    - -xc                     # Force C language mode
+    - -DPLATFORM_DESKTOP_SDL  # Make raylib use SDL
+  Remove: [-W*]
+
+Diagnostics:
+  ClangTidy:
+    Add:
+      - performance-*
+      - bugprone-*
+      - portability-*
+      - modernize-macro-*
+    Remove:
+      - bugprone-easily-swappable-parameters
+      - performance-no-int-to-ptr
+
+Index:
+  Background: Build
+  StandardLibrary: Yes
