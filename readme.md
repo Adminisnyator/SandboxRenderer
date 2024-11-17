@@ -6,6 +6,8 @@
 This is a small rendering and audio playing demo.
 ## Goals:
 - Render small scene similar to Quake
+- Load and Display Textures
+- Simple Lighting
 - Play audio
 - Player Movement
 - Particle Effects
