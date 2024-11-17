@@ -1,6 +1,7 @@
 # Your average trans fem to raylib enjoyer gpu shader pipeline.
 This is a small rendering and audio playing demo.
-Goals:
+
+## Goals:
 - Render small scene similar to Quake
 - Play audio
 - Player Movement
