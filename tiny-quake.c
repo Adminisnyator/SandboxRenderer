@@ -1,6 +1,5 @@
-#include "raylib.h"
-#include "raylib/src/raylib.h"
-#include "raylib/src/rlgl.h"
+#include <raylib.h>
+#include <rlgl.h>
 #include <stdint.h>
 #include <time.h>
 
