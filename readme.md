@@ -1,4 +1,4 @@
-# Your average trans fem to raylib enjoyer gpu shader pipeline.
+# Your average trans fem python enthusiast to raylib enjoyer gpu shader pipeline.
 This is a small rendering and audio playing demo.
 
 ## Goals:
