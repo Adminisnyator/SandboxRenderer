@@ -19,14 +19,15 @@ This is a small rendering and audio playing demo.
 - [Raylib Github](https://github.com/raysan5/raylib/)
 
 ## Building
+
 Install raylib either through your package manager or by cloning it.
 For instance with fedora you would:
-```
+```bash
 $ sudo dnf install raylib-devel
 $ make
 ```
 If you want to build it without automatically running it you can also call.
-```
+```bash
 $ make build-tiny-quake
 $ make run-tiny-quake
 ```
